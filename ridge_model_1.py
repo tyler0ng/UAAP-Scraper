@@ -10,12 +10,12 @@ from sklearn.metrics import r2_score, mean_squared_error
 # Use ONE of the two modes below:
 
 # MODE A: single merged file (e.g., MergedChanged.csv containing 85/86/87/88)
-MERGED_CSV = r" "
+MERGED_CSV = r"MergedChanged.csv"
 USE_MERGED_ONLY = False
 
 #For MODE B (two files), set USE_MERGED_ONLY = False and fill these:
-TRAIN_CSV = r"/Users/tylerong/PycharmProjects/PythonProject/MergedChanged.csv"   # SS85–SS87 merged
-SS88_CSV  = r"/Users/tylerong/PycharmProjects/PythonProject/ss88.csv"           # SS88 only
+TRAIN_CSV = r"MergedChanged.csv"   # SS85–SS87 merged
+SS88_CSV  = r"ss88.csv"           # SS88 only
 
 #Seasons to train vs predict (numbers)
 TRAIN_SEASONS = {85, 86, 87}
